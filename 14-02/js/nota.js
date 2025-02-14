@@ -9,4 +9,16 @@ function resultadoNotaClick(event) {
     console.log("Ola Welington")
     console.log(inpuNota.value)
 
+
+if(inpuNota.value>= 6){
+    resultado.innerHTML = "Aprovado"
+
+} else {
+    
+    resultado.innerHTML = "Reprovado"
+
+       }
+
+       inpuNota.value =" "
 }
+
