@@ -51,5 +51,16 @@ body{
 }
 
 
+.menssage{
+    display: none;
+}
+
+.menssage span{
+    color: rgb(172, 172, 172);
+    padding-bottom: 10px ;
+    display: :block;
+}
+
+
 
 
