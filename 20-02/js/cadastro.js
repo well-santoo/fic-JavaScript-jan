@@ -11,4 +11,6 @@ salvarBtn.addEventListener("click", function() {
     
 
     campo.value = ""
+
+    carregarValoresSalvos()
 });
