@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/cal.css">
+</head>
+
+<body>
+
+    <h1>Calculadora</h1>
+
+    <div class="container">
+        <form>
+            <div class="form-control">
+                <label for="valor1">Valor 1</label>
+                <input type="text" id="valor1" />
+            </div>
+            <div class="form-control">
+                <label for="valor2">Valor 2</label>
+                <input type="text" id="valor2" />
+            </div>
+
+            <button onclick="somar(event)">Somar</button>
+            <button onclick="subtracao(event)">Subtração</button>
+            <button onclick="multi(event)">Multiplicação</button>
+            <h2>Resultado: <strong id="resultado">0</strong></h2>
+        </form>
+    </div> 
+    <script src="./js/calc.js"></script>
+    </body>
+
+</html>
