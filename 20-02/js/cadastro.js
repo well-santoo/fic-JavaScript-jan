@@ -4,6 +4,11 @@ const salvarBtn = document.querySelector("#salvar")
 salvarBtn.addEventListener("click", function() {
     const valor = campo.value;
     
+    if(campo.value === "") {
+        alert("Fazer Cadastro")
+        return false
+    }
+    
 
     const chave = `ValorSalvo_${Date.now()}`;
     
@@ -13,4 +18,7 @@ salvarBtn.addEventListener("click", function() {
     campo.value = ""
 
     carregarValoresSalvos()
-});
+})
+
+
+
